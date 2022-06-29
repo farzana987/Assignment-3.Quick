@@ -1,0 +1,178 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+
+.header{
+	width: 100%;
+	border-bottom: 2px solid #eee;
+	position: fixed;
+	background-color: white;
+}
+.container{
+	width: 1140px;
+	margin: auto;
+}
+.navibar{
+	display: flex;
+	justify-content: space-between;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 18px;
+	line-height: 62px;
+	font-weight: 300;
+	color: gray;
+}
+
+.banner{
+	width: 100%;
+	padding:150px 0px ;
+	text-align: center;
+}
+.banner-content h1{
+	font-size: 50px;
+	color: #3f3d56;
+	line-height: 1.2;
+	margin-bottom: 16px;
+	font-weight: 600;
+}
+.banner-content h1 span{
+	color:#008aff;
+}
+.banner-content p{
+	font-weight: 300;
+	margin-bottom: 30px;
+	color:#666986;
+	line-height: 1.5;
+}
+
+.projects{
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 70px;
+}
+
+.project-content{
+	display: flex;
+}
+.left,.right{
+	flex-basis: 50%;
+}
+.left{
+	text-align: right;
+}
+.left h2{
+	font-size: 42px;
+	color: #f24f42;
+}
+.left p{
+	font-weight: 300;
+	font-size: 16px;
+	color:#666986;
+	line-height: 1.5;
+	
+}
+.right h2{
+	font-size: 42px;
+	color:#0E2555 ;
+}
+.left{
+	margin-right:16px ;
+}
+.right{
+	margin-left: 16px;
+}
+
+
+.services{
+	width: 100%;
+	padding-bottom: 60px;
+}
+.s-content{
+	display:grid;
+	grid-template-columns: auto auto auto;
+	column-gap: 22px;
+	
+}
+.bg1{
+	background-color:#FDEBED;
+	text-align: center;
+}
+
+.bg1:hover{
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	background-color: white;
+}
+
+.bg2{
+	background-color:#EBF9F4;
+	text-align: center;
+}
+
+.bg2:hover{
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	background-color: white;
+}
+.bg3{
+	background-color: #FFF7E8;
+	text-align: center;
+}
+.bg3:hover{
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	background-color: white;
+}
+
+
+
+.s-item{
+	padding: 40px 30px;
+
+}
+.s-item h4{
+	margin-bottom: 10px;
+	font-size: 20px;
+	color: #0E2555;
+	text-align: left;
+}
+.s-item p{
+	color:#666986;
+	font-weight: 300;
+	text-align: left;
+	line-height: 1.5;
+}
+
+.footer{
+	width: 100%;
+	background-color:#008aff ;
+	padding: 20px 0;
+	text-align: center;
+	display: flex;
+}
+.footer p{
+	color: #a8a8a8;
+	font-weight: 300;
+	font-size: 16px;
+	padding: 5px;
+}
+.footer p span{
+	font-weight: 600px;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: white;
+	letter-spacing:3px;
+}
+.footer i{
+	color: #a8a8a8;
+	font-size: 12px;
+}
+
+
+
