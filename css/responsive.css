@@ -1,0 +1,47 @@
+
+
+
+@media(max-width: 768px){
+
+	
+
+
+
+.navibar{
+	display: inline-block;
+}
+
+
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 8px;
+	line-height: 30px;
+	font-weight: 200;
+	color: gray;
+}
+
+
+.banner{
+text-align:center;
+}
+
+.banner-content h1{
+font-size: 50px;
+
+	}
+.banner-content p{
+font-size: 18px;
+font-weight: 300;
+margin-bottom: 30px;
+
+}
+
+
+.s-content{
+	display: inline-block;
+}
+
+
+
+}
